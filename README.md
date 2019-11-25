@@ -7,4 +7,4 @@
 
 ## 项目界面一览
 
-![](http://img.nixiaolei.com/xyd42-9afgj.gif)
+![](./xyd42-9afgj.gif)
