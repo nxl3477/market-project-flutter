@@ -155,7 +155,7 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin 
                 Image.network(
                     val['image'],
                     width: ScreenUtil().setWidth(375),
-                    height: ScreenUtil().setWidth(200),
+                    height: ScreenUtil().setHeight(200),
                     fit: BoxFit.cover
                 ),
                 Text(
@@ -454,6 +454,8 @@ class Floor extends StatelessWidget {
                     child: Image.network(
                       floor[0]['image'],
                       fit: BoxFit.cover,
+                      width: ScreenUtil().setWidth(375),
+                      height: ScreenUtil().setHeight(400),
                     ),
                     onTap: () {
                       this.jumpDetail(context, floor[0]['goodsId']);
@@ -463,11 +465,13 @@ class Floor extends StatelessWidget {
 //                左下角商品
                 Container(
                   padding: EdgeInsets.only(top: 1, right: 1),
-                  height: ScreenUtil().setHeight(205),
+                  height: ScreenUtil().setHeight(200),
                   child: InkWell(
                     child: Image.network(
                       floor[1]['image'],
                       fit: BoxFit.cover,
+                      width: ScreenUtil().setWidth(375),
+                      height: ScreenUtil().setHeight(200),
                     ),
                     onTap: () {
                       this.jumpDetail(context, floor[1]['goodsId']);
@@ -484,11 +488,13 @@ class Floor extends StatelessWidget {
                 // 右上图
                 Container(
                   padding: EdgeInsets.only(top: 4),
-                  height: ScreenUtil().setHeight(204),
+                  height: ScreenUtil().setHeight(200),
                   child: InkWell(
                     child: Image.network(
                       floor[1]['image'],
                       fit: BoxFit.cover,
+                      width: ScreenUtil().setWidth(375),
+                      height: ScreenUtil().setHeight(200),
                     ),
                     onTap: () {
                       this.jumpDetail(context, floor[1]['goodsId']);
@@ -503,6 +509,8 @@ class Floor extends StatelessWidget {
                     child: Image.network(
                       floor[3]['image'],
                       fit: BoxFit.cover,
+                      width: ScreenUtil().setWidth(375),
+                      height: ScreenUtil().setHeight(200)
                     ),
                     onTap: () {
                       this.jumpDetail(context, floor[3]['goodsId']);
@@ -516,7 +524,9 @@ class Floor extends StatelessWidget {
                   child: InkWell(
                     child: Image.network(
                       floor[4]['image'],
-                      fit: BoxFit.cover,
+                      fit: BoxFit.fill,
+                      width: ScreenUtil().setWidth(375),
+                      height: ScreenUtil().setHeight(200)
                     ),
                     onTap: () {
                       this.jumpDetail(context, floor[4]['goodsId']);

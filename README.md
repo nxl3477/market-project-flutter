@@ -1,16 +1,10 @@
-# flutter_shop
+# 项目结构
 
-A new Flutter application.
+* 根目录是 fluuter 项目相关文件
+* backend 文件中是 node.js 程序， 负责mock数据
+  * 开发环境启动： `npm run dev`
+  * 生产环境启动: `npm run pro`, 需要安装pm2
 
-## Getting Started
+## 项目界面一览
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](http://img.nixiaolei.com/xyd42-9afgj.gif)
